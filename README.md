@@ -8,18 +8,18 @@ If no command line arguments are given, it enters a loop that shows a menu with 
 
 To run this command line tool, you can simply call python main.py with the appropriate arguments. For example, to show the info for a MIDI file called my_song.mid, you would run:
 
-*python main.py my_song.mid my_song_info.txt
+**python main.py my_song.mid my_song_info.txt**
 
 This would show the info for the MIDI file and save it to a text file called my_song_info.txt.
 
 To transpose the same MIDI file to a target BPM of 120 and key of D, you would run:
 
-*python main.py my_song.mid my_song_transposed.mid -b 120 -k D
+**python main.py my_song.mid my_song_transposed.mid -b 120 -k D**
 
 This would transpose the MIDI file and save the output to a new MIDI file called my_song_transposed.mid.
 
 And to show a visualization of the same MIDI file, you would run:
 
-*python main.py my_song.mid my_song_visualization.png
+**python main.py my_song.mid my_song_visualization.png**
 
 This would generate a visualization of the MIDI file and save it to a PNG file called my_song_visualization.png.
